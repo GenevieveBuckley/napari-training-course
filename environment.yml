@@ -2,9 +2,10 @@ name: napari
 channels:
   - conda-forge
 dependencies:
-  - scikit-image
+  - scikit-image>=0.17.2
   - jupyterlab
-  - tifffile
+  - tifffile>=2020.2.16
   - imagecodecs
+  - napari[all]>=0.3.4
   - pip:
       - magicgui
