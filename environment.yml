@@ -6,4 +6,5 @@ dependencies:
   - jupyterlab
   - tifffile
   - imagecodecs
-  - napari
+  - pip:
+      - magicgui
