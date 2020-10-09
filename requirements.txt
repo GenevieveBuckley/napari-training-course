@@ -1,5 +1,5 @@
 magicgui
-napari[all]==0.3.4
+napari[all]>=0.3.4
 scikit-image>=0.17.2
 tifffile>=2020.2.16
 jupyterlab
